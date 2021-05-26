@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.searchbar {
+  width: 100%;
+  margin: auto;
+  min-height: 250px;
+  background: url("/techdegree-project-5/photos/desktopMountains.jpeg") no-repeat center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Searchbar */
+.searchbar h2 {
+  margin-top: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.searchbar input {
+  width: 60%;
+  height: 22px;
+  border-radius: 8px;
+  border-width: 1px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.searchbar input:focus {
+  outline: none;
+}
+
+
+
+/* Grid */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+}
+
+
+/* Media queries */
+@media (max-width: 1024px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 668px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
