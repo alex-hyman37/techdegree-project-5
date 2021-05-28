@@ -26,7 +26,7 @@ body {
 /* Searchbar */
 .searchbar h2 {
   margin-top: 60px;
-  color: #fff;
+  color: rgb(228, 226, 226);
   text-transform: uppercase;
 }
 .searchbar input {
