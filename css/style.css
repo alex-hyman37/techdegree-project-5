@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .searchbar {
@@ -21,7 +21,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
 
 /* Searchbar */
 .searchbar h2 {
@@ -42,8 +41,6 @@ body {
   outline: none;
 }
 
-
-
 /* Grid */
 
 .gallery {
@@ -63,7 +60,6 @@ img {
 a {
   cursor: pointer;
 }
-
 
 /* Media queries */
 @media (max-width: 768px) {
